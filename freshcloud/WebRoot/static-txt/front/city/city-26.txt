@@ -1,0 +1,1 @@
+[{"title":"运城","cid":308},{"title":"离石","cid":301},{"title":"朔州","cid":304},{"title":"大同","cid":298},{"title":"临汾","cid":302},{"title":"晋城","cid":300},{"title":"榆次","cid":307},{"title":"长治","cid":297},{"title":"太原","cid":296},{"title":"忻州","cid":305},{"title":"候马","cid":299},{"title":"阳泉","cid":306},{"title":"宁武","cid":303}]

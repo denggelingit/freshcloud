@@ -1,0 +1,1 @@
+[{"title":"金昌","cid":43},{"title":"平凉","cid":46},{"title":"兰州","cid":38},{"title":"武威","cid":49},{"title":"敦煌","cid":41},{"title":"白银","cid":39},{"title":"天水","cid":47},{"title":"西峰","cid":50},{"title":"临夏","cid":45},{"title":"张掖","cid":51},{"title":"甘南","cid":42},{"title":"武都","cid":48},{"title":"定西","cid":40},{"title":"酒泉","cid":44}]

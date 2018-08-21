@@ -1,0 +1,1 @@
+[{"title":"武夷山","cid":35},{"title":"福州","cid":24},{"title":"福安","cid":25},{"title":"莆田","cid":29},{"title":"漳州","cid":37},{"title":"泉州","cid":30},{"title":"宁德","cid":28},{"title":"石狮","cid":33},{"title":"厦门","cid":36},{"title":"龙岩","cid":26},{"title":"邵武","cid":32},{"title":"南平","cid":27},{"title":"永安","cid":34},{"title":"三明","cid":31}]

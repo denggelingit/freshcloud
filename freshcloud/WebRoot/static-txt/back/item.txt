@@ -1,0 +1,1 @@
+{"allItems":[{"title":"粮油","iid":1},{"title":"蔬菜","iid":2},{"title":"生鲜","iid":3},{"title":"水果","iid":4},{"title":"饮料","iid":5},{"title":"副食","iid":6}]}

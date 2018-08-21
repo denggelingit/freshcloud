@@ -1,0 +1,41 @@
+package cn.food.fresh.service.back.impl;
+
+import java.util.Iterator;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Service;
+
+import cn.food.fresh.dao.IItemDAO;
+import cn.food.fresh.pojo.Item;
+import cn.food.fresh.service.back.IItemServiceBack;
+
+@Service
+public class ItemServiceBackImpl implements IItemServiceBack {
+	@Resource
+	private IItemDAO itemDAO;
+
+	@Override
+	public List<Item> list() throws Exception {
+		return this.itemDAO.findAll();
+	}
+
+	@Override
+	public boolean edit(Item vo) throws Exception {
+		if (this.itemDAO.findByTitleAndId(vo.getTitle(), vo.getIid()) == null) {
+			return this.itemDAO.doUpdate(vo); // 更新item信息
+		}
+		return false;
+	}
+
+	@Override
+	public List<Item> listDetails() throws Exception {
+		List<Item> all = this.itemDAO.findAll();
+		Iterator<Item> iter = all.iterator();
+		while (iter.hasNext()) {
+			iter.next().getSubitems().size(); // 延迟加载解锁
+		}
+		return all;
+	}
+}

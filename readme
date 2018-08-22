@@ -1,0 +1,7 @@
+freshcloud/freshcloud/src/database.properties
+
+db.url=jdbc:mysql://******:3306/fresh?useSSL=false
+db.user=******
+db.password=******
+
+You can configure your database's url, user, password in this file.
